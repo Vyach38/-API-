@@ -1,1 +1,0 @@
-EXCHANGE_RATE_API_KEY="ZmfmgPks5jU3r4dWswqnvMstlrQCDaXX"

@@ -4,10 +4,11 @@ import os
 from dotenv import load_dotenv
 import requests
 
-# load_dotenv()
+load_dotenv()
 
 CURRENCY_RATES_FILE = "currency_rates.json"
-API_KEY = os.getenv("EXCHANGE_RATE_API_KEY")
+API_KEY = os.getenv("EXCHANGE_API")
+print(API_KEY)
 
 
 def get_currency_rate(currency: str) -> float:
